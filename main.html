@@ -2,14 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Soccer League Statistics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #dddddd;
+        }
+        tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        tbody tr:nth-of-type(odd) {
+            background-color: #ffffff;
+        }
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+<h2>Soccer League Statistics</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Team</th>
+            <th>Matches Played</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Team A</td>
+            <td>20</td>
+            <td>15</td>
+            <td>2</td>
+            <td>3</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>Team B</td>
+            <td>20</td>
+            <td>12</td>
+            <td>5</td>
+            <td>3</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>Team C</td>
+            <td>20</td>
+            <td>10</td>
+            <td>7</td>
+            <td>3</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>Team D</td>
+            <td>20</td>
+            <td>8</td>
+            <td>8</td>
+            <td>4</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>Team E</td>
+            <td>20</td>
+            <td>5</td>
+            <td>10</td>
+            <td>5</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Team F</td>
+            <td>20</td>
+            <td>3</td>
+            <td>15</td>
+            <td>2</td>
+            <td>11</td>
+        </tr>
+    </tbody>
+</table>
+
 </body>
 </html>
